@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440925EA23B5E444D37AFB7E /* Pods_UIAlertViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C70C9DAC4393A40F573BA4B /* Pods_UIAlertViewController.framework */; };
+		676272F4CAA15A585FED5AA7 /* Pods_UIAlertViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E57FF60FCC9EE8CAF95DDBB /* Pods_UIAlertViewControllerTests.framework */; };
+		9F68B0EE23BF55A400C87DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68B0ED23BF55A400C87DEE /* AppDelegate.swift */; };
+		9F68B0F023BF55A400C87DEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68B0EF23BF55A400C87DEE /* SceneDelegate.swift */; };
+		9F68B0F223BF55A400C87DEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68B0F123BF55A400C87DEE /* ViewController.swift */; };
+		9F68B0F523BF55A400C87DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F68B0F323BF55A400C87DEE /* Main.storyboard */; };
+		9F68B0F723BF55A500C87DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F68B0F623BF55A500C87DEE /* Assets.xcassets */; };
+		9F68B0FA23BF55A500C87DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F68B0F823BF55A500C87DEE /* LaunchScreen.storyboard */; };
+		9F68B10523BF55A500C87DEE /* UIAlertViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68B10423BF55A500C87DEE /* UIAlertViewControllerTests.swift */; };
+		9F70879B23C06BF80017B746 /* KeyBoardHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70879A23C06BF80017B746 /* KeyBoardHide.swift */; };
+		9F80620E23C6015400FCCC1F /* NewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80620D23C6015400FCCC1F /* NewData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F68B10123BF55A500C87DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F68B0E223BF55A400C87DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F68B0E923BF55A400C87DEE;
+			remoteInfo = UIAlertViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524E12747FC4425ED94E73CA /* Pods-UIAlertViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAlertViewController.release.xcconfig"; path = "Target Support Files/Pods-UIAlertViewController/Pods-UIAlertViewController.release.xcconfig"; sourceTree = "<group>"; };
+		5C70C9DAC4393A40F573BA4B /* Pods_UIAlertViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E472850E8ED32AA2261FBBC /* Pods-UIAlertViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAlertViewControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-UIAlertViewControllerTests/Pods-UIAlertViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61D2E6C5438F9F3BF6949F5E /* Pods-UIAlertViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAlertViewControllerTests.release.xcconfig"; path = "Target Support Files/Pods-UIAlertViewControllerTests/Pods-UIAlertViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E57FF60FCC9EE8CAF95DDBB /* Pods_UIAlertViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIAlertViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAC6DEFBBBAEA8F2318D1F2 /* Pods-UIAlertViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAlertViewController.debug.xcconfig"; path = "Target Support Files/Pods-UIAlertViewController/Pods-UIAlertViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		9F68B0EA23BF55A400C87DEE /* UIAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F68B0ED23BF55A400C87DEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F68B0EF23BF55A400C87DEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F68B0F123BF55A400C87DEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F68B0F423BF55A400C87DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F68B0F623BF55A500C87DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F68B0F923BF55A500C87DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F68B0FB23BF55A500C87DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F68B10023BF55A500C87DEE /* UIAlertViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F68B10423BF55A500C87DEE /* UIAlertViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertViewControllerTests.swift; sourceTree = "<group>"; };
+		9F68B10623BF55A500C87DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F70879A23C06BF80017B746 /* KeyBoardHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardHide.swift; sourceTree = "<group>"; };
+		9F80620D23C6015400FCCC1F /* NewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F68B0E723BF55A400C87DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440925EA23B5E444D37AFB7E /* Pods_UIAlertViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F68B0FD23BF55A500C87DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676272F4CAA15A585FED5AA7 /* Pods_UIAlertViewControllerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6846DBDC2805250E89DD3D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C70C9DAC4393A40F573BA4B /* Pods_UIAlertViewController.framework */,
+				6E57FF60FCC9EE8CAF95DDBB /* Pods_UIAlertViewControllerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F68B0E123BF55A400C87DEE = {
+			isa = PBXGroup;
+			children = (
+				9F68B0EC23BF55A400C87DEE /* UIAlertViewController */,
+				9F68B10323BF55A500C87DEE /* UIAlertViewControllerTests */,
+				9F68B0EB23BF55A400C87DEE /* Products */,
+				CA0C7F1B693D10F2E40582C6 /* Pods */,
+				6846DBDC2805250E89DD3D7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F68B0EB23BF55A400C87DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F68B0EA23BF55A400C87DEE /* UIAlertViewController.app */,
+				9F68B10023BF55A500C87DEE /* UIAlertViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F68B0EC23BF55A400C87DEE /* UIAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F68B0ED23BF55A400C87DEE /* AppDelegate.swift */,
+				9F68B0EF23BF55A400C87DEE /* SceneDelegate.swift */,
+				9F68B0F123BF55A400C87DEE /* ViewController.swift */,
+				9F80620D23C6015400FCCC1F /* NewData.swift */,
+				9F70879A23C06BF80017B746 /* KeyBoardHide.swift */,
+				9F68B0F323BF55A400C87DEE /* Main.storyboard */,
+				9F68B0F623BF55A500C87DEE /* Assets.xcassets */,
+				9F68B0F823BF55A500C87DEE /* LaunchScreen.storyboard */,
+				9F68B0FB23BF55A500C87DEE /* Info.plist */,
+			);
+			path = UIAlertViewController;
+			sourceTree = "<group>";
+		};
+		9F68B10323BF55A500C87DEE /* UIAlertViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F68B10423BF55A500C87DEE /* UIAlertViewControllerTests.swift */,
+				9F68B10623BF55A500C87DEE /* Info.plist */,
+			);
+			path = UIAlertViewControllerTests;
+			sourceTree = "<group>";
+		};
+		CA0C7F1B693D10F2E40582C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC6DEFBBBAEA8F2318D1F2 /* Pods-UIAlertViewController.debug.xcconfig */,
+				524E12747FC4425ED94E73CA /* Pods-UIAlertViewController.release.xcconfig */,
+				5E472850E8ED32AA2261FBBC /* Pods-UIAlertViewControllerTests.debug.xcconfig */,
+				61D2E6C5438F9F3BF6949F5E /* Pods-UIAlertViewControllerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F68B0E923BF55A400C87DEE /* UIAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F68B10923BF55A500C87DEE /* Build configuration list for PBXNativeTarget "UIAlertViewController" */;
+			buildPhases = (
+				3B946D8AD179E85C3D4FF39A /* [CP] Check Pods Manifest.lock */,
+				9F68B0E623BF55A400C87DEE /* Sources */,
+				9F68B0E723BF55A400C87DEE /* Frameworks */,
+				9F68B0E823BF55A400C87DEE /* Resources */,
+				A852CA42710A62CE9961F4F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIAlertViewController;
+			productName = UIAlertViewController;
+			productReference = 9F68B0EA23BF55A400C87DEE /* UIAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F68B0FF23BF55A500C87DEE /* UIAlertViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F68B10C23BF55A500C87DEE /* Build configuration list for PBXNativeTarget "UIAlertViewControllerTests" */;
+			buildPhases = (
+				75DB9290501FDB29D8E08262 /* [CP] Check Pods Manifest.lock */,
+				9F68B0FC23BF55A500C87DEE /* Sources */,
+				9F68B0FD23BF55A500C87DEE /* Frameworks */,
+				9F68B0FE23BF55A500C87DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F68B10223BF55A500C87DEE /* PBXTargetDependency */,
+			);
+			name = UIAlertViewControllerTests;
+			productName = UIAlertViewControllerTests;
+			productReference = 9F68B10023BF55A500C87DEE /* UIAlertViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F68B0E223BF55A400C87DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = D.Natraj;
+				TargetAttributes = {
+					9F68B0E923BF55A400C87DEE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					9F68B0FF23BF55A500C87DEE = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9F68B0E923BF55A400C87DEE;
+					};
+				};
+			};
+			buildConfigurationList = 9F68B0E523BF55A400C87DEE /* Build configuration list for PBXProject "UIAlertViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F68B0E123BF55A400C87DEE;
+			productRefGroup = 9F68B0EB23BF55A400C87DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F68B0E923BF55A400C87DEE /* UIAlertViewController */,
+				9F68B0FF23BF55A500C87DEE /* UIAlertViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F68B0E823BF55A400C87DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F68B0FA23BF55A500C87DEE /* LaunchScreen.storyboard in Resources */,
+				9F68B0F723BF55A500C87DEE /* Assets.xcassets in Resources */,
+				9F68B0F523BF55A400C87DEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F68B0FE23BF55A500C87DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B946D8AD179E85C3D4FF39A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIAlertViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75DB9290501FDB29D8E08262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIAlertViewControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A852CA42710A62CE9961F4F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIAlertViewController/Pods-UIAlertViewController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIAlertViewController/Pods-UIAlertViewController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIAlertViewController/Pods-UIAlertViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F68B0E623BF55A400C87DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F70879B23C06BF80017B746 /* KeyBoardHide.swift in Sources */,
+				9F68B0F223BF55A400C87DEE /* ViewController.swift in Sources */,
+				9F68B0EE23BF55A400C87DEE /* AppDelegate.swift in Sources */,
+				9F68B0F023BF55A400C87DEE /* SceneDelegate.swift in Sources */,
+				9F80620E23C6015400FCCC1F /* NewData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F68B0FC23BF55A500C87DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F68B10523BF55A500C87DEE /* UIAlertViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F68B10223BF55A500C87DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F68B0E923BF55A400C87DEE /* UIAlertViewController */;
+			targetProxy = 9F68B10123BF55A500C87DEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F68B0F323BF55A400C87DEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F68B0F423BF55A400C87DEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F68B0F823BF55A500C87DEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F68B0F923BF55A500C87DEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F68B10723BF55A500C87DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F68B10823BF55A500C87DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F68B10A23BF55A500C87DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FAC6DEFBBBAEA8F2318D1F2 /* Pods-UIAlertViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRN.UIAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F68B10B23BF55A500C87DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524E12747FC4425ED94E73CA /* Pods-UIAlertViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRN.UIAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F68B10D23BF55A500C87DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E472850E8ED32AA2261FBBC /* Pods-UIAlertViewControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIAlertViewControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRN.UIAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIAlertViewController.app/UIAlertViewController";
+			};
+			name = Debug;
+		};
+		9F68B10E23BF55A500C87DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D2E6C5438F9F3BF6949F5E /* Pods-UIAlertViewControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIAlertViewControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRN.UIAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIAlertViewController.app/UIAlertViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F68B0E523BF55A400C87DEE /* Build configuration list for PBXProject "UIAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F68B10723BF55A500C87DEE /* Debug */,
+				9F68B10823BF55A500C87DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F68B10923BF55A500C87DEE /* Build configuration list for PBXNativeTarget "UIAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F68B10A23BF55A500C87DEE /* Debug */,
+				9F68B10B23BF55A500C87DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F68B10C23BF55A500C87DEE /* Build configuration list for PBXNativeTarget "UIAlertViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F68B10D23BF55A500C87DEE /* Debug */,
+				9F68B10E23BF55A500C87DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F68B0E223BF55A400C87DEE /* Project object */;
+}
